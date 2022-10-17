@@ -5,7 +5,7 @@ public class Prime_number {
 	static void checkPrimeNum(int num) {
 		int Count = 0;
 		
-        boolean isPrime = true;
+      
 		for (int index = 1; index <= num; index++) {
 			if (num % index == 0) {
                  Count++;
